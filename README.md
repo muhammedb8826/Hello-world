@@ -1,8 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
+
   <br/>
-  <h3><b>Microverse README Template</b></h3>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -10,54 +11,69 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
 - [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse!] <a name="about-project"></a>
+# Hello Microverse
+
+> Hello Microverse project is built for training and understanding Linters and stylelint.
+
+## Built With
+
+- HTML, CSS
+- Git, Github
+- VSCode
+
+## Getting Started
+
+Clone the folder to your local machine by using ,(https://github.com/muhammedb8826/Hello-world.git) link
+
+### Prerequisites
+
+### Setup
+Set up the yaml file located in <code>.github/workflows/linters.yml</code>
+
+### Install
+Install all different dependencies of linters file:
+- lighthouse (<code>.github/workflows/linters.yml</code>)
+- webhint (<code>.github/workflows/linters.yml</code>)
+- stylelint (<code>.github/workflows/linters.yml</code>)
+
+### Run tests
+After pushing the changes on github, merge your pull request and let github action process changes.
+
+### Deployment
+Check for the tests when you generate a pull request and fix errors, if any.
+For stylelint errors run:<code>sudo npx stylelint "**/*.{css,scss}" --fix</code> for automatic fix.
 
 
-**[Hello Microverse!]** is a project showing the Hello Microverse title on a page
+## Authors
 
-## 🛠 Built With <a name="built-with">HTML & CSS</a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
-    &
-    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-  </ul>
-</details>
-
-
-### Key Features <a name="key-features"></a>
-
-- **[feature-1]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 👥 Author <a name="authors">Muhammed</a>
-
-👤 **Author1**
+👤 **Muhammed Berisso**
 
 - GitHub: [@githubhandle](https://github.com/muhammedb8826)
 - Twitter: [@twitterhandle](https://twitter.com/muhammedb8826)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammed-berisso-a60783226/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🤝 Contributing
 
-## 📝 License <a name="license"></a>
+Contributions, issues, and feature requests are welcome!
 
-This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+## Show your support
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
